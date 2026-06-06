@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="game_bg">#F8F9FA</color>
+    <color name="primary_ui">#212529</color>
+    <color name="accent_green">#2ECC71</color>
+
+    <color name="box_bg">#FFFFFF</color>
+    <color name="box_text">#121212</color>
+
+    <color name="shadow_black">#33000000</color>
+    <color name="main_text_button">#212529</color>
+    <color name="highlight_green">#2ECC71</color>
+</resources>
+<!--light\colors-->

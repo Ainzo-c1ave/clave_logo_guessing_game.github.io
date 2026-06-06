@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/white_rounded_bg"
+    android:backgroundTint="@color/box_bg"> <ImageView
+    android:id="@+id/itemImage"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:scaleType="centerInside"
+    android:visibility="gone"
+    android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/itemQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question Label"
+        android:textColor="@color/primary_ui"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/itemQuestionEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Question"
+        android:visibility="gone"
+        android:textColor="@color/box_text"
+        android:textColorHint="#888888"
+        android:background="@null"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/itemAnswerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Answer Here"
+        android:textColor="@color/box_text"
+        android:textColorHint="#888888"
+        android:background="@drawable/button_outline"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+</LinearLayout>

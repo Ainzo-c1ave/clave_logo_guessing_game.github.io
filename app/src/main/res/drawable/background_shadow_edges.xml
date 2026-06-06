@@ -1,0 +1,51 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TOP -->
+    <item>
+        <inset android:insetBottom="97%">
+            <shape>
+                <gradient
+                    android:angle="270"
+                    android:startColor="@color/shadow_black"
+                    android:endColor="@android:color/transparent"/>
+            </shape>
+        </inset>
+    </item>
+
+    <!-- BOTTOM -->
+    <item>
+        <inset android:insetTop="97%">
+            <shape>
+                <gradient
+                    android:angle="90"
+                    android:startColor="@color/shadow_black"
+                    android:endColor="@android:color/transparent"/>
+            </shape>
+        </inset>
+    </item>
+
+    <!-- LEFT -->
+    <item>
+        <inset android:insetRight="95%">
+            <shape>
+                <gradient
+                    android:angle="0"
+                    android:startColor="@color/shadow_black"
+                    android:endColor="@android:color/transparent"/>
+            </shape>
+        </inset>
+    </item>
+
+    <!-- RIGHT -->
+    <item>
+        <inset android:insetLeft="95%">
+            <shape>
+                <gradient
+                    android:angle="180"
+                    android:startColor="@color/shadow_black"
+                    android:endColor="@android:color/transparent"/>
+            </shape>
+        </inset>
+    </item>
+
+</layer-list>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/settings_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_settings" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_SettingsDropdown"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:elevation="11dp"
+        app:layout_constraintEnd_toEndOf="@id/settings_icon"
+        app:layout_constraintTop_toBottomOf="@id/settings_icon">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Volume"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_Music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Sound Effects"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_Sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="70" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="LOG OUT"
+            android:textColor="#FF4444"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="DELETE ACCOUNT"
+            android:textColor="#FF0000"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</merge>
